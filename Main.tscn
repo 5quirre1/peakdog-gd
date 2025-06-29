@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvmtdpmrawvhh"]
+
+[ext_resource type="Script" uid="uid://wa8ga4ch130b" path="res://sprite_2d.gd" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://y6pjaj7er4g6" path="res://label.gd" id="1_uu6xs"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_rxg2q"]
+font_size = 79
+font_color = Color(0.388235, 1, 1, 1)
+
+[node name="Main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 472.0
+offset_top = 213.0
+offset_right = 599.0
+offset_bottom = 322.0
+text = "sex"
+label_settings = SubResource("LabelSettings_rxg2q")
+horizontal_alignment = 1
+vertical_alignment = 1
+justification_flags = 161
+script = ExtResource("1_uu6xs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(618.15, 355.203)
+script = ExtResource("1_glv2v")
